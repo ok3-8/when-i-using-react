@@ -20,6 +20,11 @@
 - 🍇组件 − 通过 React 构建组件，使得代码更加容易得到复用，能够很好的应用在大项目的开发中。
 - 🍄单向响应的数据流 − React 实现了单向响应的数据流，从而减少了重复代码，这也是它为什么比传统数据绑定更简单。
 
+React的核心是组件，组件的设计目的是提高代码复用率、降低测试难度和代码复杂度。  
+提高代码复用率：组件将数据和逻辑封装，类似面向对象中的类。  
+降低测试难度：组件高内聚低耦合，很容易对单个组件进行测试。  
+降低代码复杂度：直观的语法可以极大提高可读性。
+
 ## 目录
 
 - [基础](#base)
@@ -29,13 +34,47 @@
     - [设计模式](#设计模式)
     - [高阶组件](#高阶组件)
 
-- [面试](#interview)
-- [周报](#weekly)
+- [面试](#面试)
+- [周报](#周报)
 - [开发工具](#tools)
 - []()
 - []()
 - []()
 - []()
+
+## 面试
+
+Virtual DOM和Diff原理  
+JSX语法的由来  
+组件首字母大写和classname  
+css-in-js  
+state和props、数据流  
+生命周期  
+动画和优化  
+高阶组件  
+Redux  
+React Fiber  
+hooks  
+配合TypeScript
+
+
+
+## 动手更美好
+
+实现一套基础组件  
+实现在线编辑代码生效  
+研究react UI库  
+结合TypeScript  
+immutable的原理是什么？ 
+jest 单元测试  
+hooks的实现  
+React Fiber原理和优化
+
+
+
+## 周报
+
+[react16-weekly](https://github.com/ok3-8/react16-weekly)
 
 
 ## 待办
@@ -65,7 +104,12 @@ Markdown 格式参考：[Github Markdown格式](https://guides.github.com/featur
 3. 现有的知识点难免存在不完善或者错误，所以你可以对已有知识点的修改/补充。
 
 
+## 卖艺不卖身
 
+博学之，审问之，慎思之，明辨之，笃行之。
 
+## License
+
+Released under the MIT License.
 
 
