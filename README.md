@@ -78,8 +78,9 @@ React Fiber原理和优化
 
 这里整理React的一些国外周报，非常值得收藏和为我所用。
 
-|  周报周报、每周一报 |  介绍  |
+|  周报周报每周一报 |  介绍  |
 |  ----  | ---- |
+|  I_am_a_placeholder_placeholder  | nothing |
 |[react16-weekly](https://github.com/ok3-8/react16-weekly)|🍋A weekly roundup of the latest React and React Native links and tutorials.|
 |[React Status](https://react.statuscode.com/)|A weekly roundup of the latest React and React Native links and tutorials.|
 |[Week of React](https://www.getrevue.co/profile/Andres-from-Jexia)|Weekly curated blogs and tools for React pros.|
