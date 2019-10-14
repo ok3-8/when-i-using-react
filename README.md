@@ -25,10 +25,7 @@ React的核心是组件，组件的设计目的是提高代码复用率、降低
 降低测试难度：组件高内聚低耦合，很容易对单个组件进行测试。  
 降低代码复杂度：直观的语法可以极大提高可读性。
 
-React网址：  
-[github](https://github.com/facebook/react)  
-[官网](https://reactjs.org/)  
-[官网-中文](https://zh-hans.reactjs.org/)
+React 16+ 网址: [github](https://github.com/facebook/react)、[官网](https://reactjs.org/)、[官网-中文](https://zh-hans.reactjs.org/)
 
 ## 目录
 
@@ -38,9 +35,10 @@ React网址：
     - [hooks](#hooks)
     - [设计模式](#设计模式)
     - [高阶组件](#高阶组件)
-
+- [精通 React Hooks](#精通ReactHooks)  
+- [React 书单整理](#React书单整理BookList)  
+- [周报weekly](#周报weekly)
 - [面试](#面试)
-- [周报](#周报)
 - [开发工具](#tools)
 - []()
 - []()
@@ -57,7 +55,7 @@ state和props、数据流
 生命周期  
 动画和优化  
 高阶组件  
-Redux  
+Redux 中间件  
 React Fiber  
 hooks  
 配合TypeScript
@@ -75,12 +73,168 @@ jest 单元测试
 hooks的实现  
 React Fiber原理和优化
 
+  
+## 🎉周报weekly
+
+### [react16-weekly](https://github.com/ok3-8/react16-weekly)
+
+### [React Status](https://react.statuscode.com/)
+
+A weekly roundup of the latest React and React Native links and tutorials.
+
+### [Week of React](https://www.getrevue.co/profile/Andres-from-Jexia)
+
+Weekly curated blogs and tools for React pros.
+
+### [React.js Newsletter](http://reactjsnewsletter.com/)
+
+The free, weekly newsletter of the best React news, articles, projects, and more - brought to you by TylerMcGinnis.com
+
+### [React Native Newsletter](http://reactnative.cc/)
+
+A curated, fun to read newsletter all about React Native
+Free bi-weekly summary of React Native news, articles, issues & pull requests, libraries and apps.
+
+### [Fullstack React Newsletter](http://newsletter.fullstackreact.com/)
+
+Fullstack React is a weekly newsletter about the React ecosystem with an emphasis on useful libraries, tutorials and code. Subscribe to read the best articles each week on React, Flux, GraphQL, Relay, and friends.
+
+### [React Digest Newsletter](https://reactdigest.net)
+
+React Digest is a weekly email newsletter that keeps you up to date with the React world.
+
+### [Awesome React](https://awesomereact.com)
+
+All the latest and hottest news about React, a comprehensive overview of the best resources to get started, awesome playlists, talks from conferences and so much more...
+
+### [This Week in React](https://this-week-in-react.org)
+
+Regular coverage of interesting pull requests, discussions, and RFCs around React Core and React DOM.
+
+### [Week of React](www.theweekofreact.com)
+
+Week of React - Weekly curated blogs and tools for React pros....
+
+### [React Podcast](https://reactpodcast.simplecast.fm)
+
+Conversations about React with your favorite developers.
+
+### [Made with React](https://madewithreact.com/)
+
+A collection of websites and applications using the React or React Native JavaScript library.
+
+### [JavaScript Weekly](https://javascriptweekly.com/)
+
+A free, once–weekly email roundup of JavaScript news and articles.
+
+### [Weekend JavaScript](https://weekendjs.com/)
+
+Hey! I'm Ianis. And this is a curated list of JavaScript news and articles (sending every Friday). No spam. Just fresh write-ups on the language features, frameworks, testing practices and beyond.
+
+### [Node Weekly](https://nodeweekly.com/)
+
+A free, once–weekly e-mail round-up of Node.js news and articles.
+
+### [StatusCode Weekly](https://weekly.statuscode.com/)
+
+A weekly newsletter covering software development, Web operations, infrastructure, platforms, and performance, from browser down to the metal.
+
+### [DB Weekly](https://dbweekly.com/)
+
+A weekly round-up of database technology news and articles covering new developments, SQL, NoSQL, document databases, graph databases, and more.
+
+### [Frontend Focus](https://frontendfoc.us/)
+
+A once–weekly roundup of the best front-end news, articles and tutorials. HTML, CSS, WebGL, Canvas, browser tech, and more.
+
+### 其它weekly
+
+[这些国外前端周刊值得你收藏一下](https://segmentfault.com/a/1190000010934003)  
+[Our newsletters, websites and social media accounts](https://cooperpress.com/publications/)
+
+[将 React 作为 UI 运行时](https://overreacted.io/zh-hans/react-as-a-ui-runtime/)
+
+[freecodecamp-tag-react](https://www.freecodecamp.org/news/tag/react/)
+[awesomereact](https://awesomereact.com)
+[A collection of awesome things regarding React ecosystem.](https://github.com/enaqx/awesome-react)
+[Curated List of React Components & Libraries.](https://github.com/brillout/awesome-react-components)
+
+[React-社区资源](https://zh-hans.reactjs.org/community/support.html) 
+[React-工具](https://zh-hans.reactjs.org/community/component-workbenches.html) 
+
+## 📚React书单整理BookList
+
+### React
+
+《深入React技术栈》
+《深入浅出React和Redux》
+《React 进阶之路》
+《React设计模式与最佳实践》
+《React快速上手开发》
+《React（第2版）：引领未来的用户界面开发框架》
+《React全栈:Redux+Flux+webpack+Babel整合开发》
+《React状态管理与同构实战》
+《React 精髓》
+《React导学》
+《React与Redux开发实例精解》
+《React前端技术与工程实践》
+《React开发实战》
+《React学习手册》
+《快速上手React编程》
+
+### React Native
+
+《React Native跨平台移动应用开发（第二版）》
+《React Native入门与实战》
+《React Native开发指南》
+《React Native：用JavaScript开发移动应用》
+《React Native应用开发实例解析》
+《React Native移动开发实战》
+《React Native精解与实战》
+《React Native全教程:移动端跨平台应用开发》
+《React Native 移动开发实战》
+《React Native Cookbook 中文版》
+
+## 🛠️面试题interview
+
+到底什么叫面试？面试的哲学和核心在哪里？
+我们应该怎么更好地推荐自己和展示自我。
+
+这里有篇文章讲的是React面试该怎样去面试一个人，蛮好的
+【[以面试官的角度来看 React 工作面试](https://github.com/xitu/gold-miner/blob/master/TODO1/a-react-job-interview-recruiter-perspective.md)】
+
+很多面试像了解一个人，都像面试边界性和深入原理的问题。
+针对这个问题的解决方案和自己看法。
+对前端的架构和项目搭建，怎么运作下去；周边技术的对接和认知。
+技术的选型中怎么判断优缺点；怎么规划好。
+
+我们知道有个网站叫：[rapid-es6](https://rapides6.herokuapp.com/)大概讲的是为ES6复习用的，提了一些小片段代码，看运行能打印出什么结果。
+两个特点：代码片段小，题目分类多。
+使用利用这个特色怎么改造成为React所用？
+【[List of top 500 ReactJS Interview Questions & Answers....Coding exercise questions are coming soon!!](https://github.com/sudheerj/reactjs-interview-questions)】
+
+必须要会的 50 个React 面试题: https://segmentfault.com/a/1190000018604138
+
+掘金上蛮多React面试题的，可以去搜集一些。
+https://segmentfault.com/a/1190000019339210
 
 
-## 周报
 
-[react16-weekly](https://github.com/ok3-8/react16-weekly)
 
+## 🎳精通ReactHooks
+
+30分钟精通React Hooks：
+https://juejin.im/post/5be3ea136fb9a049f9121014
+
+
+
+## 其它
+
+[掘金翻译前端列表](https://github.com/xitu/gold-miner/blob/master/front-end.md)
+
+
+这个有个人搞了个hooks改写HOC
+https://www.freecodecamp.org/news/react-hooks-to-hocs/
 
 ## 待办
 
@@ -94,7 +248,7 @@ React Fiber原理和优化
 
 *  **入门指南和实践项目：** 本文档倾向于给您提供一个比较详细的学习路径，让您对于React整体的知识体系有一个初步认识。另外，本文的一些文章
 也是您学习和复习 React 知识不错的实践；
-*  **高级深入和原理剖析：** 本文档虽然更适合回顾知识，准备面试，收集更多优秀文章，不过会梳理清楚 React 内在核心和实践原理，并会归纳更多针对性优化的知识。相信您能收获更多有意义知识点。
+*  **由浅入深和原理剖析：** 本文档虽然更适合回顾知识，准备面试，收集更多优秀文章，不过会梳理清楚 React 内在核心和实践原理，并会归纳更多针对性优化性能的知识。相信您能收获更多有意义知识点。
 
 Markdown 格式参考：[Github Markdown格式](https://guides.github.com/features/mastering-markdown/)  
 表情素材来自：[EMOJI CHEAT SHEET](https://www.webpagefx.com/tools/emoji-cheat-sheet/)  
