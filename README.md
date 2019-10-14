@@ -76,15 +76,15 @@ React Fiber原理和优化
   
 ## 🎉周报weekly
 
-|  周报周报每周一报 |  介绍  |
+这里整理React的一些国外周报，非常值得收藏和为我所用。
+
+|  周报周报、每周一报 |  介绍  |
 |  ----  | ---- |
-|I_am_a_placeholder_placeholder|nothing|
 |[react16-weekly](https://github.com/ok3-8/react16-weekly)|🍋A weekly roundup of the latest React and React Native links and tutorials.|
 |[React Status](https://react.statuscode.com/)|A weekly roundup of the latest React and React Native links and tutorials.|
 |[Week of React](https://www.getrevue.co/profile/Andres-from-Jexia)|Weekly curated blogs and tools for React pros.|
 |[React.js Newsletter](http://reactjsnewsletter.com/)|The free, weekly newsletter of the best React news, articles, projects, and more - brought to you by TylerMcGinnis.com|
-|[React Native Newsletter](http://reactnative.cc/)|A curated, fun to read newsletter all about React Native
-Free bi-weekly summary of React Native news, articles, issues & pull requests, libraries and apps.|
+|[React Native Newsletter](http://reactnative.cc/)|A curated, fun to read newsletter all about React Native, Free bi-weekly summary of React Native news, articles, issues & pull requests, libraries and apps.|
 |[Fullstack React Newsletter](http://newsletter.fullstackreact.com/)|Fullstack React is a weekly newsletter about the React ecosystem with an emphasis on useful libraries, tutorials and code. Subscribe to read the best articles each week on React, Flux, GraphQL, Relay, and friends.|
 |[React Digest Newsletter](https://reactdigest.net)|React Digest is a weekly email newsletter that keeps you up to date with the React world.|
 |[Awesome React](https://awesomereact.com)|All the latest and hottest news about React, a comprehensive overview of the best resources to get started, awesome playlists, talks from conferences and so much more...|
