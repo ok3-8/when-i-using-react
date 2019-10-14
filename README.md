@@ -119,34 +119,34 @@ React Fiber原理和优化
 
 ### React
 
-《深入React技术栈》
-《深入浅出React和Redux》
-《React 进阶之路》
-《React设计模式与最佳实践》
-《React快速上手开发》
-《React（第2版）：引领未来的用户界面开发框架》
-《React全栈:Redux+Flux+webpack+Babel整合开发》
-《React状态管理与同构实战》
-《React 精髓》
-《React导学》
-《React与Redux开发实例精解》
-《React前端技术与工程实践》
-《React开发实战》
-《React学习手册》
-《快速上手React编程》
+《深入React技术栈》  
+《深入浅出React和Redux》  
+《React 进阶之路》  
+《React设计模式与最佳实践》  
+《React快速上手开发》  
+《React（第2版）：引领未来的用户界面开发框架》  
+《React全栈:Redux+Flux+webpack+Babel整合开发》  
+《React状态管理与同构实战》  
+《React 精髓》  
+《React导学》  
+《React与Redux开发实例精解》  
+《React前端技术与工程实践》  
+《React开发实战》  
+《React学习手册》  
+《快速上手React编程》  
 
 ### React Native
 
-《React Native跨平台移动应用开发（第二版）》
-《React Native入门与实战》
-《React Native开发指南》
-《React Native：用JavaScript开发移动应用》
-《React Native应用开发实例解析》
-《React Native移动开发实战》
-《React Native精解与实战》
-《React Native全教程:移动端跨平台应用开发》
-《React Native 移动开发实战》
-《React Native Cookbook 中文版》
+《React Native跨平台移动应用开发（第二版）》  
+《React Native入门与实战》  
+《React Native开发指南》  
+《React Native：用JavaScript开发移动应用》  
+《React Native应用开发实例解析》  
+《React Native移动开发实战》  
+《React Native精解与实战》  
+《React Native全教程:移动端跨平台应用开发》  
+《React Native 移动开发实战》  
+《React Native Cookbook 中文版》  
 
 ## 🛠️面试题interview
 
