@@ -29,7 +29,7 @@ React 16+ 网址: [github](https://github.com/facebook/react)、[官网](https:/
 
 ## 目录
 
-- [基础](#base)
+- [基础](#React基础知识)
     - [state](#state)
     - [react-script](#react-script)
     - [hooks](#hooks)
@@ -37,13 +37,136 @@ React 16+ 网址: [github](https://github.com/facebook/react)、[官网](https:/
     - [高阶组件](#高阶组件)
 - [精通 React Hooks](#精通ReactHooks)  
 - [React 书单整理](#React书单整理BookList)  
-- [周报weekly](#周报weekly)
+- [周报 weekly](#周报weekly)
 - [面试](#面试)
 - [开发工具](#tools)
 - []()
 - []()
 - []()
 - []()
+
+三条任务线：
+- 基础 => 实践 => 部署上线
+- React周边知识点包括内核分析和面试题
+- React周边技术和衍生技术，有点像杂货店
+
+后续关注`React`科学发展的妖艳姿势：
+
+- 官网
+- github
+- 知乎
+- 掘金
+- sf.gg
+- 周报
+- 视频课程
+
+### 官网
+
+这个没得说，官网肯定第一时间把知识宣布；在官网可以看到更多API和实时的进展。  
+网站：https://reactjs.org
+
+### github
+
+Github React：https://github.com/facebook/react
+关注Github上的东西，除了官网，肯定还有其它更好的资源或Demo啊。
+
+### 知乎
+### 掘金
+### sf.gg
+### 周报
+### 视频课程
+
+## React基础知识
+
+1、React本地开发环境的搭建
+2、React组件 和 JSX
+3、React的属性（props）和状态（state）
+4、React组件的生命周期
+5、React表单- 非受控表单和受控表单
+6、React开发思想 - 状态提升和单向数据流
+7、React16新增特性 Context
+
+```
+import React, { lazy, Suspense } from 'react';
+react suspense
+```
+
+学习React最终思路
+
+
+了解全新React版本和了解React过去。
+提前了解未来的React开发模式，关注React版本的更新。
+
+对于React API需要知道怎么使用，把握框架的使用流程形态和框架的边界性，针对性或深入了解React运行机制。
+
+提升排查问题能力
+更好的理解React工作过程
+避免陷阱，提升应用性能和可靠性
+夯实数据结构以及算法设计能力
+
+React API 一览
+
+讲解React主要API，了解基本使用
+以及原理
+
+ 
+React中的更新
+
+主要讲解React创建更新中主要的两
+种方式ReactDOM.render和
+setState
+
+ 
+Fiber Scheduler
+
+主要讲解Fiber调度流程，实现更新
+分片的性能优化
+
+ 
+各类组件的Update
+
+讲解10多种不同类型的组件的更新
+过程，以及如何遍历节点形成新的
+Fiber树
+
+ 
+完成节点任务
+
+完成节点更新之后，完成节点的创
+建，并提供优化到最小幅度的DOM
+更新列表
+
+ 
+提交阶段
+
+根据更新列表最小幅度的改变
+DOM，实现UI的更新
+
+ 
+核心功能详解
+
+讲解各种贯穿于更新和提交阶段的功
+能，发挥的作用，以及如何实现的
+
+ 
+全新功能详解
+
+Suspense和Hooks颠覆原先的
+React组件开发模式，提供更小粒度
+的更新以及更加适合解耦的API
+
+
+## 技术储备
+
+数据结构、正则表达式
+原生JS功底
+
+## 在成为一个React高级工程师的路上
+
+React源码深度解析 高级前端工程师必备技能
+React全栈+服务器渲染(ssr)打造社区Webapp
+全栈进阶课程 React16.8+Next.js+Koa2一步到位开发Github
+
 
 ## 面试
 
@@ -171,8 +294,11 @@ React Fiber原理和优化
 掘金上蛮多React面试题的，可以去搜集一些。
 https://segmentfault.com/a/1190000019339210
 
+React高频面试题梳理，看看面试怎么答？（上）
+「框架篇」React 中 的 9 种优化技术
+React16组件化+测试+全流程实战“在线账本”项目 https://coding.imooc.com/class/302.html
 
-
+【React学习路线】从零进阶前端核心工程师 http://www.imooc.com/article/details/id/274378
 
 ## 🎳精通ReactHooks
 
