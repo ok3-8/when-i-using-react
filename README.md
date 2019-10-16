@@ -51,15 +51,9 @@ React 16+ 网址: [github](https://github.com/facebook/react)、[官网](https:/
 - React周边知识点包括知识点深入分析和面试题讲解
 - React周边技术和衍生态技术，像杂货店
 
-后续关注`React`科学发展的妖艳姿势：
+## 后续关注`React`科学发展的妖艳姿势
 
-- 官网
-- github
-- 知乎
-- 掘金
-- sf.gg
-- 周报
-- 视频课程
+官网、github、知乎、掘金、sf.gg、周报、视频课程...
 
 ### 官网
 
