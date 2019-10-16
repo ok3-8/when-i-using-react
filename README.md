@@ -45,6 +45,38 @@ React 16+ 网址: [github](https://github.com/facebook/react)、[官网](https:/
 - []()
 - []()
 
+
+三条任务线：
+- 基础 => 实践 => 部署上线
+- React周边知识点包括知识点深入分析和面试题讲解
+- React周边技术和衍生态技术，像杂货店
+
+后续关注`React`科学发展的妖艳姿势：
+
+- 官网
+- github
+- 知乎
+- 掘金
+- sf.gg
+- 周报
+- 视频课程
+
+### 官网
+
+这个没得说，官网肯定第一时间把知识宣布；在官网可以看到更多API和实时的进展。  
+网站：https://reactjs.org
+
+### github
+
+Github React：https://github.com/facebook/react
+关注Github上的东西，除了官网，肯定还有其它更好的资源或Demo啊。
+
+### 知乎
+### 掘金
+### sf.gg
+### 周报
+### 视频课程
+
 ## 面试
 
 Virtual DOM和Diff原理  
