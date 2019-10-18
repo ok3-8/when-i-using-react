@@ -45,8 +45,6 @@ React 16+ 网址: [github](https://github.com/facebook/react)、[官网](https:/
 - []()
 - []()
 
-
-
 ---
 
 ![hot](http://www.devio.org/img/ico/ico_hot.gif)  
@@ -54,60 +52,60 @@ React 16+ 网址: [github](https://github.com/facebook/react)、[官网](https:/
 
 三条任务线：
 
-基础 => 实践 => 部署上线
-React周边知识点包括知识点深入分析和面试题讲解
-React周边技术和衍生态技术，像杂货店
+基础 => 实践 => 部署上线  
+React周边知识点包括知识点深入分析和面试题讲解  
+React周边技术和衍生态技术，像杂货店  
 
-React的基础
-ceate-react-app
-webpack
-postcss&css-in-js
-样式、font、图片
-测试用例
-router
-redux
-mock server
-代码规范
-test(jest)
-TS
-git和gitlab
-jenkins
-docker
-埋点&log server
+React的基础  
+ceate-react-app  
+webpack  
+postcss&css-in-js  
+样式、font、图片  
+测试用例  
+router  
+redux  
+mock server 
+代码规范  
+test(jest)  
+TS  
+git和gitlab  
+jenkins  
+docker  
+埋点&log server  
 
-this.setState()
-Time Slice
+this.setState()  
+Time Slice  
 Fiber()
 
-搭一个UI 库
-弄一个devdoc文档，可以在线修改代码
-搭一个脚手架
-弄一个通用项目目录构建
-VS code最佳实现
+搭一个UI 库  
+弄一个devdoc文档，可以在线修改代码  
+搭一个脚手架  
+弄一个通用项目目录构建  
+VS code最佳实现  
 
-React Native
+React Native  
 Next.js
 
 ## React基础知识
 
-1、React本地开发环境的搭建
-2、React组件 和 JSX
-3、React的属性（props）和状态（state）
-4、React组件的生命周期
-5、React表单- 非受控表单和受控表单
-6、React开发思想 - 状态提升和单向数据流
+1、React本地开发环境的搭建  
+2、React组件 和 JSX  
+3、React的属性（props）和状态（state）  
+4、React组件的生命周期  
+5、React表单- 非受控表单和受控表单  
+6、React开发思想 - 状态提升和单向数据流  
 7、React16新增特性 Context
 
 动手更美好
 
-实现一套基础组件  
+实现一套基础组件   
 实现在线编辑代码生效  
 研究react UI库  
 结合TypeScript  
 immutable的原理是什么？ 
 jest 单元测试  
 hooks的实现  
-React Fiber原理和优化
+React Fiber原理和优化  
 
 ```
 import React, { lazy, Suspense } from 'react';
@@ -180,13 +178,13 @@ React组件开发模式，提供更小粒度
 
 ## 技术储备
 
-数据结构、正则表达式
+数据结构、正则表达式  
 原生JS功底
 
 ## 在成为一个React高级工程师的路上
 
-React源码深度解析 高级前端工程师必备技能
-React全栈+服务器渲染(ssr)打造社区Webapp
+React源码深度解析 高级前端工程师必备技能  
+React全栈+服务器渲染(ssr)打造社区Webapp  
 全栈进阶课程 React16.8+Next.js+Koa2一步到位开发Github
 
 
@@ -208,46 +206,47 @@ https://github.com/phodal/fde
 
 ### 官网
 
-这个没得说，官网肯定第一时间把知识宣布；在官网可以看到更多API和实时的进展。
+这个没得说，官网肯定第一时间把知识宣布；在官网可以看到更多API和实时的进展。  
 网站：https://reactjs.org
 
 ### GitHub
 
-GitHub React：https://github.com/facebook/react 关注Github上的东西，除了官网，肯定还有其它更好的资源、Demo或Blog。
+GitHub React：https://github.com/facebook/react   关注Github上的东西，除了官网，肯定还有其它更好的资源、Demo或Blog。
 
 关注[Awesome Lists(https://github.com/search?p=1&q=awesome+react&type=Repositories)[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)肯定是个不错的选择，大把资源。
-[awesome-react](https://github.com/enaqx/awesome-react)  
-[awesome-react-native](https://github.com/jondot/awesome-react-native)  
-[awesome-react-components](https://github.com/brillout/awesome-react-components)  
-[awesome-react-hooks](https://github.com/rehooks/awesome-react-hooks)  
-[react-native-awesome-cn](https://github.com/crazycodeboy/react-native-awesome)  
-[awesome-nextjs](https://github.com/unicodeveloper/awesome-nextjs)  
-[awesome-reactnative-ui](https://github.com/madhavanmalolan/awesome-reactnative-ui)  
 
-其实大家少不了会关注GitHub上前端大师的。  
-或者说看别人写的Demo和Blog。  
-这里暂不一一列出来。
+- [awesome-react](https://github.com/enaqx/awesome-react)  
+- [awesome-react-native](https://github.com/jondot/awesome-react-native)  
+- [awesome-react-components](https://github.com/brillout/awesome-react-components)  
+- [awesome-react-hooks](https://github.com/rehooks/awesome-react-hooks)  
+- [react-native-awesome-cn](https://github.com/crazycodeboy/react-native-awesome)  
+- [awesome-nextjs](https://github.com/unicodeveloper/awesome-nextjs)  
+- [awesome-reactnative-ui](https://github.com/madhavanmalolan/awesome-reactnative-ui)  
+
+其实大家少不了会关注GitHub上前端大师的。    
+或者说看别人写的Demo和Blog。   
+这里暂不一一列出来。 
 
 要看面试资料看下面：[面试题interview](#面试题interview)![new](http://www.devio.org/img/ico/ico_new.gif)
 
 ### 知乎、掘金、sf.gg
 
-还有其他的，比如`简书`...
-这里还是很多国内技术人员发布的；
-不妨关注一下。
+还有其他的，比如`简书`...  
+这里还是很多国内技术人员发布的；  
+不妨关注一下。  
 对于国外网站，我这里也整理了一份：【[国外Web资源列表](#国外Web资源列表)![hot](http://www.devio.org/img/ico/ico_hot.gif) 】
 
 ### 周报
 
-这里的周报基本都是介绍国外的，你可以直接打开网站或者订阅。
+这里的周报基本都是介绍国外的，你可以直接打开网站或者订阅。  
 我已经整理出来了：[周报weekly](#周报weekly)
 
 ### 视频课程
 
 国外视频或者网站的视频课程还是蛮多的。  
 让人感觉国外的程序员的需求不饱和，天天写文章。  
-其实在国外网站比如`Medium`、`hackernoon`...
-在国内也很多：`慕课`、`腾讯`、`网易`、`百度传课`...
+其实在国外网站比如`Medium`、`hackernoon`...  
+在国内也很多：`慕课`、`腾讯`、`网易`、`百度传课`...  
 其实如果你觉得你需要学习的，你都可以去搜索。    
 毕竟弄出这些课程的人，也费不少脑筋，才好好整理这么好的资源。  
 我平时都会去逛逛看看，他们都在传授些什么。  
@@ -307,7 +306,6 @@ GitHub React：https://github.com/facebook/react 关注Github上的东西，除�
 【[List of top 500 ReactJS Interview Questions & Answers....Coding exercise questions are coming soon!!](https://github.com/sudheerj/reactjs-interview-questions)】
 【[项目的面试题来源于 sudheerj/reactjs-interview-questions 这个项目。一时兴起就动起了翻译的念头](https://github.com/semlinker/reactjs-interview-questions)】
 
-
 Virtual DOM和Diff原理  
 JSX语法的由来  
 组件首字母大写和classname  
@@ -325,6 +323,12 @@ hooks
 
 掘金上蛮多React面试题的，可以去搜集一些。
 https://segmentfault.com/a/1190000019339210
+
+React高频面试题梳理，看看面试怎么答？（上）
+「框架篇」React 中 的 9 种优化技术
+React16组件化+测试+全流程实战“在线账本”项目 https://coding.imooc.com/class/302.html
+
+【React学习路线】从零进阶前端核心工程师 http://www.imooc.com/article/details/id/274378
 
 国外的interface：
 
@@ -415,34 +419,6 @@ https://github.com/FAQGURU/FAQGURU/blob/master/topics/en/react.md#how-to-bind-me
 《React Native 移动开发实战》  
 《React Native Cookbook 中文版》  
 
-## 🛠️面试题interview
-
-到底什么叫面试？面试的哲学和核心在哪里？
-我们应该怎么更好地推荐自己和展示自我。
-
-这里有篇文章讲的是React面试该怎样去面试一个人，蛮好的
-【[以面试官的角度来看 React 工作面试](https://github.com/xitu/gold-miner/blob/master/TODO1/a-react-job-interview-recruiter-perspective.md)】
-
-很多面试像了解一个人，都像面试边界性和深入原理的问题。
-针对这个问题的解决方案和自己看法。
-对前端的架构和项目搭建，怎么运作下去；周边技术的对接和认知。
-技术的选型中怎么判断优缺点；怎么规划好。
-
-我们知道有个网站叫：[rapid-es6](https://rapides6.herokuapp.com/)大概讲的是为ES6复习用的，提了一些小片段代码，看运行能打印出什么结果。
-两个特点：代码片段小，题目分类多。
-使用利用这个特色怎么改造成为React所用？
-【[List of top 500 ReactJS Interview Questions & Answers....Coding exercise questions are coming soon!!](https://github.com/sudheerj/reactjs-interview-questions)】
-
-必须要会的 50 个React 面试题: https://segmentfault.com/a/1190000018604138
-
-掘金上蛮多React面试题的，可以去搜集一些。
-https://segmentfault.com/a/1190000019339210
-
-React高频面试题梳理，看看面试怎么答？（上）
-「框架篇」React 中 的 9 种优化技术
-React16组件化+测试+全流程实战“在线账本”项目 https://coding.imooc.com/class/302.html
-
-【React学习路线】从零进阶前端核心工程师 http://www.imooc.com/article/details/id/274378
 
 ## 🎳精通ReactHooks
 
