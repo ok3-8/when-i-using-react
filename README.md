@@ -46,31 +46,47 @@ React 16+ 网址: [github](https://github.com/facebook/react)、[官网](https:/
 - []()
 
 
+
+---
+
+![hot](http://www.devio.org/img/ico/ico_hot.gif)  
+![new](http://www.devio.org/img/ico/ico_new.gif)
+
 三条任务线：
-- 基础 => 实践 => 部署上线
-- React周边知识点包括知识点深入分析和面试题讲解
-- React周边技术和衍生态技术，像杂货店
 
-## 后续关注`React`科学发展的妖艳姿势
+基础 => 实践 => 部署上线
+React周边知识点包括知识点深入分析和面试题讲解
+React周边技术和衍生态技术，像杂货店
 
-官网、github、知乎、掘金、sf.gg、周报、视频课程...
+React的基础
+ceate-react-app
+webpack
+postcss&css-in-js
+样式、font、图片
+测试用例
+router
+redux
+mock server
+代码规范
+test(jest)
+TS
+git和gitlab
+jenkins
+docker
+埋点&log server
 
-### 官网
+this.setState()
+Time Slice
+Fiber()
 
-这个没得说，官网肯定第一时间把知识宣布；在官网可以看到更多API和实时的进展。  
-网站：https://reactjs.org
+搭一个UI 库
+弄一个devdoc文档，可以在线修改代码
+搭一个脚手架
+弄一个通用项目目录构建
+VS code最佳实现
 
-### github
-
-Github React：https://github.com/facebook/react
-关注Github上的东西，除了官网，肯定还有其它更好的资源或Demo啊。
-
-### 知乎
-### 掘金
-### sf.gg
-### 周报
-### 视频课程
-
+React Native
+Next.js
 
 ## React基础知识
 
@@ -82,13 +98,23 @@ Github React：https://github.com/facebook/react
 6、React开发思想 - 状态提升和单向数据流
 7、React16新增特性 Context
 
+动手更美好
+
+实现一套基础组件  
+实现在线编辑代码生效  
+研究react UI库  
+结合TypeScript  
+immutable的原理是什么？ 
+jest 单元测试  
+hooks的实现  
+React Fiber原理和优化
+
 ```
 import React, { lazy, Suspense } from 'react';
 react suspense
 ```
 
 学习React最终思路
-
 
 了解全新React版本和了解React过去。
 提前了解未来的React开发模式，关注React版本的更新。
@@ -164,7 +190,123 @@ React全栈+服务器渲染(ssr)打造社区Webapp
 全栈进阶课程 React16.8+Next.js+Koa2一步到位开发Github
 
 
-## 面试
+## 🃏React代码规范
+
+JavaScript Style Guide： https://github.com/airbnb/javascript
+翻译： https://github.com/dwqs/react-style-guide  
+https://hustyichi.github.io/2019/06/23/react-style/
+
+来自https://github.com/ecomfe/spec/blob/master/react-style-guide.md
+
+前端体系规划指南
+https://github.com/phodal/fde
+
+
+## ☯️后续关注React科学发展的妖艳姿势
+
+官网、GitHub、知乎、掘金、sf.gg、周报、视频课程...
+
+### 官网
+
+这个没得说，官网肯定第一时间把知识宣布；在官网可以看到更多API和实时的进展。
+网站：https://reactjs.org
+
+### GitHub
+
+GitHub React：https://github.com/facebook/react 关注Github上的东西，除了官网，肯定还有其它更好的资源、Demo或Blog。
+
+关注[Awesome Lists(https://github.com/search?p=1&q=awesome+react&type=Repositories)[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)肯定是个不错的选择，大把资源。
+[awesome-react](https://github.com/enaqx/awesome-react)  
+[awesome-react-native](https://github.com/jondot/awesome-react-native)  
+[awesome-react-components](https://github.com/brillout/awesome-react-components)  
+[awesome-react-hooks](https://github.com/rehooks/awesome-react-hooks)  
+[react-native-awesome-cn](https://github.com/crazycodeboy/react-native-awesome)  
+[awesome-nextjs](https://github.com/unicodeveloper/awesome-nextjs)  
+[awesome-reactnative-ui](https://github.com/madhavanmalolan/awesome-reactnative-ui)  
+
+其实大家少不了会关注GitHub上前端大师的。  
+或者说看别人写的Demo和Blog。  
+这里暂不一一列出来。
+
+要看面试资料看下面：[面试题interview](#面试题interview)![new](http://www.devio.org/img/ico/ico_new.gif)
+
+### 知乎、掘金、sf.gg
+
+还有其他的，比如`简书`...
+这里还是很多国内技术人员发布的；
+不妨关注一下。
+对于国外网站，我这里也整理了一份：【[国外Web资源列表](#国外Web资源列表)![hot](http://www.devio.org/img/ico/ico_hot.gif) 】
+
+### 周报
+
+这里的周报基本都是介绍国外的，你可以直接打开网站或者订阅。
+我已经整理出来了：[周报weekly](#周报weekly)
+
+### 视频课程
+
+国外视频或者网站的视频课程还是蛮多的。  
+让人感觉国外的程序员的需求不饱和，天天写文章。  
+其实在国外网站比如`Medium`、`hackernoon`...
+在国内也很多：`慕课`、`腾讯`、`网易`、`百度传课`...
+其实如果你觉得你需要学习的，你都可以去搜索。    
+毕竟弄出这些课程的人，也费不少脑筋，才好好整理这么好的资源。  
+我平时都会去逛逛看看，他们都在传授些什么。  
+
+## 🦐国外Web资源列表
+
+这是一份详尽的Web资源列表，希望能帮助您成为一名出色的Frontend开发人员。
+
+- [Mozilla Developer Network](https://developer.mozilla.org/en-US/) for frontend (Html, CSS, Js, etc.) code reference and learning 🤓. This will be your code holy book 📚 and you should follow it religiously!
+- [caniuse.com](https://caniuse.com/) to check ✅ cross-browser compatibility of frontend technologies.
+- [kangax-js-compat-table](https://kangax.github.io/compat-table/es6/) to check ✅ JavaScript versions (ES5, ES6, ES2016+ etc.) compatibility across different compilers, servers/runtimes and platforms (Desktop and Mobile).
+- [web.dev](https://web.dev) to learn about web 🕷 fundamentals from Google Developers 👨‍💻.
+- [v8.dev](https://v8.dev) to learn about Google’s open-source high-performance Javascript and WebAssembly engine 🦸‍♂️ that empowers Chrome and NodeJS.
+- [css-tricks](https://css-tricks.com) to learn everything about CSS 😻. Period.
+- [htmlreference.io](https://htmlreference.io/), [cssreference.io](https://cssreference.io/) to have an HTML/CSS visual guide 🤩 and code reference bookmark.
+- [javascript.com](https://www.javascript.com), [javascript.info](http://javascript.info/) to start learning about Javascript 😼.
+- [ponyfoo.com](https://ponyfoo.com/) to get valuable content about the Open Web platform 🕸️.
+- [smashingmagazine.com](https://www.smashingmagazine.com/) to get professional resources for web designers 🤓 and developers.
+- [freecodecamp.org](https://www.freecodecamp.org) to build frontend projects and collaborate with the community 👨‍🏫.
+- [frontendmasters.com](https://frontendmasters.com/) to advance 🔥 your skills with in-depth, modern frontend courses.
+- [codecademy.com](https://www.codecademy.com), [udemy.com](https://www.udemy.com), [pluralsight.com](https://www.pluralsight.com/), [lynda.com](https://www.lynda.com/) to do free and paid 💴 online code courses.
+- [egghead.io](https://egghead.io/) to learn the best JavaScript tools and frameworks from industry pros 😎.
+- [alligator.io](https://alligator.io/) to quickly understand seemingly-difficult frontend code concepts 😮.
+- [leanpub.com](https://leanpub.com) to easily write, publish and sell in-progress and completed ebooks 📚 and online courses.
+- [frontendfront.com](https://frontendfront.com) to stay updated with the latest web news, trends and conferences 📣 happening all over the world 🌍.
+- [uptodate.frontendrescue.org](https://uptodate.frontendrescue.org) to follow frontend leaders 🏆 , find the best resources, attend conferences, get inspired and build your stuff.
+- [medium.com](https://medium.com) to discover, read 📖 and write 🖊 related articles.
+- [twitter.com](https://twitter.com), [instagram.com](https://www.instagram.com) to follow people you like, discover what they do 🔍 and share your work.
+- [producthunt.com](https://www.producthunt.com) to discover and submit 💯 new products.
+- [codepen.io](https://codepen.io) to build, test 🧐 and discover frontend code.
+- [jsfiddle.net](https://jsfiddle.net/) to build demos for libraries/framework documentation 📃 and fiddle with frontend code.
+- [repl.it](https://repl.it/) to learn, build, collaborate and host your ideas in one place 🤩.
+- [codesandbox.io](https://codesandbox.io) to build ✍️ and share web applications using cutting edge technologies.
+- [github.com](https://github.com) to host and review 🧐 code, manage projects and build software 🤖 alongside millions of developers.
+- [stackoverflow.com](https://stackoverflow.com/) to get answers to your toughest coding questions 😁, share knowledge with your coworkers in private, and find your next dream job.
+- [hashnode.com](https://hashnode.com/) to connect with developers all around the world and grow your career 🤓.
+- [dev.to](https://dev.to/) to share and discover great ideas, have debates and make friends 💛.
+
+这份列表来自【[essential-frontend-resources-in-2019](https://github.com/Zahinize/essential-frontend-resources-in-2019)】
+
+## 🛠️面试题interview
+
+到底什么叫面试？面试的哲学和核心在哪里？
+我们应该怎么更好地推荐自己和展示自我。
+
+这里有篇文章讲的是React面试该怎样去面试一个人，蛮好的
+【[以面试官的角度来看 React 工作面试](https://github.com/xitu/gold-miner/blob/master/TODO1/a-react-job-interview-recruiter-perspective.md)】
+
+很多面试像了解一个人，都像面试边界性和深入原理的问题。
+针对这个问题的解决方案和自己看法。
+对前端的架构和项目搭建，怎么运作下去；周边技术的对接和认知。
+技术的选型中怎么判断优缺点；怎么规划好。
+
+我们知道有个网站叫：[rapid-es6](https://rapides6.herokuapp.com/)大概讲的是为ES6复习用的，提了一些小片段代码，看运行能打印出什么结果。
+两个特点：代码片段小，题目分类多。
+使用利用这个特色怎么改造成为React所用？
+【[List of top 500 ReactJS Interview Questions & Answers....Coding exercise questions are coming soon!!](https://github.com/sudheerj/reactjs-interview-questions)】
+【[项目的面试题来源于 sudheerj/reactjs-interview-questions 这个项目。一时兴起就动起了翻译的念头](https://github.com/semlinker/reactjs-interview-questions)】
+
 
 Virtual DOM和Diff原理  
 JSX语法的由来  
@@ -179,19 +321,25 @@ React Fiber
 hooks  
 配合TypeScript
 
+必须要会的 50 个React 面试题: https://segmentfault.com/a/1190000018604138
 
+掘金上蛮多React面试题的，可以去搜集一些。
+https://segmentfault.com/a/1190000019339210
 
-## 动手更美好
+国外的interface：
 
-实现一套基础组件  
-实现在线编辑代码生效  
-研究react UI库  
-结合TypeScript  
-immutable的原理是什么？ 
-jest 单元测试  
-hooks的实现  
-React Fiber原理和优化
+[51 Most Important ReactJS Interview Questions and Answers](https://www.opencodez.com/web-development/51-important-reactjs-interview-questions-answers.htm)
+[ReactJs Interview Questions](https://www.educba.com/reactjs-interview-questions/)
+[35+ Basic & Advanced ReactJS Interview Questions for 2019](https://tms-outsource.com/blog/posts/react-interview-questions/)
+[Interview Preparation — React & Redux-1](https://dev.to/nabendu82/interview-preparation-react-redux-1-5i7)
+[End your search here for top Interview Questions with Answers](https://www.bestinterviewquestion.com/)
 
+[developers Web front-end](https://www.toptal.com/developers/blog/web-front-end)
+[https://hackr.io/blog](https://hackr.io/blog)
+[essential-frontend-resources-in-2019](https://github.com/Zahinize/essential-frontend-resources-in-2019)
+
+how-to-bind-methods-or-event-handlers-in-jsx-callbacks
+https://github.com/FAQGURU/FAQGURU/blob/master/topics/en/react.md#how-to-bind-methods-or-event-handlers-in-jsx-callbacks
   
 ## 🎉周报weekly
 
