@@ -35,15 +35,21 @@ React 16+ 网址: [github](https://github.com/facebook/react)、[官网](https:/
     - [hooks](#hooks)
     - [设计模式](#设计模式)
     - [高阶组件](#高阶组件)
-- [精通 React Hooks](#精通ReactHooks)  
+- [精通 React Hooks](#精通ReactHooks) 
+- [五大React UI库]()
+- [组件开发文档]()
+- [脚手架]()
+- [构建和CI/CD]() 
+- [React Native]()
+- [Next.js]() 
 - [React 书单整理](#React书单整理BookList)  
 - [周报 weekly](#周报weekly)
 - [面试](#面试)
 - [开发工具](#tools)
-- []()
-- []()
-- []()
-- []()
+- [工作流的模式和思维]()
+- [软件工程和项目管理]()
+- [生活哲学]()
+- [总结和扯皮]()
 
 ---
 
@@ -213,7 +219,7 @@ https://github.com/phodal/fde
 
 GitHub React：https://github.com/facebook/react   关注Github上的东西，除了官网，肯定还有其它更好的资源、Demo或Blog。
 
-关注[Awesome Lists(https://github.com/search?p=1&q=awesome+react&type=Repositories)[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)肯定是个不错的选择，大把资源。
+关注[Awesome Lists](https://github.com/search?p=1&q=awesome+react&type=Repositories)[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)肯定是个不错的选择，大把资源。
 
 - [awesome-react](https://github.com/enaqx/awesome-react)  
 - [awesome-react-native](https://github.com/jondot/awesome-react-native)  
