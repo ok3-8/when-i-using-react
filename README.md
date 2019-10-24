@@ -32,7 +32,7 @@ React 16+ 网址: [github](https://github.com/facebook/react)、[官网](https:/
 - [基础](#React基础知识)
   - [state&props](#state)
   - [react-script](#react-script)
-  - [React Hooks](#React Hooks)
+  - [React Hooks](#ReactHooks)
   - [Redux](#Redux)
   - [设计模式](#设计模式)
   - [高阶组件](#高阶组件)
