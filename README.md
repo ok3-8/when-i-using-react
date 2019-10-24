@@ -30,13 +30,15 @@ React 16+ 网址: [github](https://github.com/facebook/react)、[官网](https:/
 ## 目录
 
 - [基础](#React基础知识)
-    - [state](#state)
-    - [react-script](#react-script)
-    - [hooks](#hooks)
-    - [设计模式](#设计模式)
-    - [高阶组件](#高阶组件)
+  - [state&props](#state)
+  - [react-script](#react-script)
+  - [React Hooks](#React Hooks)
+  - [Redux](#Redux)
+  - [设计模式](#设计模式)
+  - [高阶组件](#高阶组件)
+  - [路由权限](#路由权限)
 - [精通 React Hooks](#精通ReactHooks) 
-- [五大React UI库]()
+- [五大 React UI 库]()
 - [组件开发文档]()
 - [脚手架]()
 - [构建和CI/CD]() 
@@ -44,7 +46,7 @@ React 16+ 网址: [github](https://github.com/facebook/react)、[官网](https:/
 - [Next.js]() 
 - [React 书单整理](#React书单整理BookList)  
 - [周报 weekly](#周报weekly)
-- [面试](#面试)
+- [面试题 interview](#面试题interview)
 - [开发工具](#tools)
 - [工作流的模式和思维]()
 - [软件工程和项目管理]()
@@ -101,6 +103,22 @@ Next.js
 5、React表单- 非受控表单和受控表单  
 6、React开发思想 - 状态提升和单向数据流  
 7、React16新增特性 Context
+
+1.NextJS — react体系最强大的同构框架
+2.OAuth授权体系 — 最广泛的第三方授权体系，如微信，QQ等
+3.React Hooks — 改变react的开发模式
+4.KOA — 基于node.js搭建服务器，配合next.js做项目同构
+5.Redis — 业界常用的内存数据库
+
+代码分割
+Context
+错误边界
+Fragments
+Portals
+forwardRef
+
+https://www.e-learn.cn/content/qita/2737868
+https://coding.imooc.com/?c=reactjs
 
 动手更美好
 
