@@ -38,7 +38,7 @@ React 16+ 网址: [github](https://github.com/facebook/react)、[官网](https:/
   - [高阶组件](#高阶组件)
   - [路由权限](#路由权限)
 - [精通 React Hooks](#精通ReactHooks) 
-- [五大 React UI 库]()
+- [十大 React UI 库](#十大ReactUI库)
 - [组件开发文档]()
 - [脚手架]()
 - [构建和CI/CD]() 
@@ -48,6 +48,8 @@ React 16+ 网址: [github](https://github.com/facebook/react)、[官网](https:/
 - [周报 weekly](#周报weekly)
 - [面试题 interview](#面试题interview)
 - [开发工具](#tools)
+- [微前端]()
+- [前端中台]()
 - [工作流的模式和思维]()
 - [软件工程和项目管理]()
 - [生活哲学]()
@@ -104,11 +106,11 @@ Next.js
 6、React开发思想 - 状态提升和单向数据流  
 7、React16新增特性 Context
 
-1.NextJS — react体系最强大的同构框架
-2.OAuth授权体系 — 最广泛的第三方授权体系，如微信，QQ等
-3.React Hooks — 改变react的开发模式
-4.KOA — 基于node.js搭建服务器，配合next.js做项目同构
-5.Redis — 业界常用的内存数据库
+1.NextJS — react体系最强大的同构框架  
+2.OAuth授权体系 — 最广泛的第三方授权体系，如微信，QQ等  
+3.React Hooks — 改变react的开发模式  
+4.KOA — 基于node.js搭建服务器，配合next.js做项目同构  
+5.Redis — 业界常用的内存数据库  
 
 代码分割
 Context
@@ -274,6 +276,35 @@ GitHub React：https://github.com/facebook/react   关注Github上的东西，�
 其实如果你觉得你需要学习的，你都可以去搜索。    
 毕竟弄出这些课程的人，也费不少脑筋，才好好整理这么好的资源。  
 我平时都会去逛逛看看，他们都在传授些什么。  
+
+## 十大ReactUI库
+
+- material
+- Ant-design
+- SemanticUI
+- Blueprint
+- Rebass
+- Fabric
+- Grommet
+- Onsen UI
+- Virtualized
+- Bootstrap
+
+开发的过程，确实少不了UI库，有了它页面一下就出来了。
+其实基于这一点，我比较偏向去看它的源码和理清它设计模式和理念。  
+是一件非常开心和舒服的事情。  
+自己会分析怎么生成开发文档，在线编辑代码实时更新组件。  
+不但对自己的成长和见识上一个层次，还能认知到UI框架的体态和API设计。  
+
+本人之前针对过ElementUI和MaterialUI源码开箱摸过，哈哈哈哈。  
+
+MaterialUI和Blueprint。  
+ElementUI和ant-design 符合国内使用。  
+
+
+
+10 大顶级 React 库
+
 
 ## 🦐国外Web资源列表
 
