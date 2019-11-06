@@ -47,6 +47,7 @@ React 16+ 网址: [github](https://github.com/facebook/react)、[官网](https:/
 - [React 书单整理](#React书单整理BookList)  
 - [周报 weekly](#周报weekly)
 - [面试题 interview](#面试题interview)
+- [React性能优化]() 
 - [开发工具](#tools)
 - [微前端]()
 - [前端中台]()
@@ -301,9 +302,143 @@ GitHub React：https://github.com/facebook/react   关注Github上的东西，�
 MaterialUI和Blueprint。  
 ElementUI和ant-design 符合国内使用。  
 
-
-
 10 大顶级 React 库
+
+A simple online fake REST API server https://jsonplaceholder.typicode.com
+
+## React性能优化
+
+使用immutable优化React   
+记忆化库-memoize-one  
+
+### 什么叫记忆性技术？
+
+每次调用函数把你的传参和结果记录下来，遇到相同的传参，就直接返回记录缓存的结果，不用再去调用函数处理数据！
+
+```js
+import memoizeOne from 'memoize-one';
+
+const add = (a, b) => a + b;
+const memoizedAdd = memoizeOne(add);
+
+memoizedAdd(1, 2); // 3
+
+memoizedAdd(1, 2); // 3
+// Add 函数并没有执行: 前一次执行的结果被返回
+
+memoizedAdd(2, 3); // 5
+// Add 函数再次被调用，返回一个新的结果
+
+memoizedAdd(2, 3); // 5
+// Add 函数并没有执行: 前一次执行的结果被返回
+
+memoizedAdd(1, 2); // 3
+// Add 函数再次被调用，返回一个新的结果
+
+```
+
+我们可以发现连续两次相同传参，第二次会直接返回上次的结果，每次传参不一样，就直接调用函数返回新的结果，会丢失之前的记录，并不是完全记忆，这也是个不足点！
+
+
+### 关于isEqual函数（memoize-one推荐使用loadsh.isEqual）
+
+一般两个对象比较是否相等，我们不能用===或者==来处理，memoize-one允许用户自定义传入判断是否相等的函数，比如我们可以使用lodash的isEqual来判断两次参数是否相等
+
+```js
+import memoizeOne from 'memoize-one';
+import deepEqual from 'lodash.isEqual';
+
+const identity = x => x;
+
+const defaultMemoization = memoizeOne(identity);
+const customMemoization = memoizeOne(identity, deepEqual);
+
+const result1 = defaultMemoization({foo: 'bar'});
+const result2 = defaultMemoization({foo: 'bar'});
+
+result1 === result2 // false - 索引不同
+
+const result3 = customMemoization({foo: 'bar'});
+const result4 = customMemoization({foo: 'bar'});
+
+result3 === result4 // true - 参数通过lodash.isEqual判断是相等的
+```
+
+
+Immutable Data 就是一旦创建，就不能再被更改的数据。
+
+immutable.js
+
+Immutable.js本质上是一个JavaScript的持久化数据结构的库 ，但是由于同期的React太火，并且和React在性能优化方面天衣无缝的配合，导致大家常常把它们两者绑定在一起。
+
+Immutable.js是Facebook 工程师 Lee Byron 花费 3 年时间打造，但没有被默认放到 React 工具集里（React 提供了简化的 Helper）。它内部实现了一套完整的 Persistent Data Structure，且数据结构和方法非常丰富（完全不像JS出身的好不好）。像 Collection、List、Map、Set、Record、Seq。有非常全面的map、filter、groupBy、reduce、find函数式操作方法。同时 API 也尽量与 Object 或 Array 类似。 Immutable.js 压缩后下载有 16K。
+
+其中有 3 种最重要的数据结构说明一下：（Java 程序员应该最熟悉了）
+
+- Map：键值对集合，对应于 Object，ES6 也有专门的 Map 对象
+- List：有序可重复的列表，对应于 Array
+- Set：无序且不可重复的列表
+
+seamless-immutable
+
+seamless-immutable是另一套持久化数据结构的库，它并没有实现完整的 Persistent Data Structure，而是使用 Object.defineProperty（因此只能在 IE9 及以上使用）扩展了 JavaScript 的 Array 和 Object 对象来实现，只支持 Array 和 Object 两种数据类型，API 基于与 Array 和 Object ，因此许多不用改变自己的使用习惯，对代码的入侵非常小。同时，它的代码库也非常小，压缩后下载只有 2K。
+
+如果有有兼容性，就使用 polyfill es-shims/es5-shim 来解决。
+
+而seamless-immutable虽然数据结构和API不如Immutable.js丰富，但是对于只想使用Immutable Data来对React进行优化以避免重复渲染的我们来说，已经是绰绰有余了。而且Array和Object原生的方法等都可以直接使用，原有项目改动极小。
+
+
+由于seamless-immutable的实现依赖于ECMAScript 5 和原生的Array、Object天然的兼容性，导致其在React中的使用非常简单，只要注意三点就可以达到效果:
+
+初始化state
+初始化state数据的时候，使用Immutable的初始化方式。
+
+```js
+import Immutable from 'seamless-immutable';
+
+state: {
+  orderList: Immutable([]),
+}
+```
+
+修改state数据
+修改state数据的时候，同样也要注意：
+
+```js
+saveOrderList(state, {payload: items}) {
+      return {...state, orderList: Immutable(items)};
+    }
+```
+
+shouldComponentUpdate
+
+使用pure-render-decorator，真是方便、快捷又优雅。当然，由于decorator属于ES7的特性，babel还需要自己配置。
+
+```js
+import React from 'react';
+import pureRender from 'pure-render-decorator';
+
+@pureRender
+class OrderListView extends React.Component {
+```
+
+
+React特色工具：Perf
+Perf 是react官方提供的性能分析工具。Perf最核心的方法莫过于Perf.printWasted(measurements)了，该方法会列出那些没必要的组件渲染。很大程度上，React的性能优化就是干掉这些无谓的渲染。
+
+
+https://segmentfault.com/a/1190000008925295
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## 🦐国外Web资源列表
@@ -544,6 +679,9 @@ JavaScirpt实现幻灯片：[Impress.js](https://github.com/impress/impress.js)�
 ## 卖艺不卖身
 
 博学之，审问之，慎思之，明辨之，笃行之。
+
+作者：[蓝少 (@bluezhan)](https://github.com/bluezhan)
+版权声明：自由转载-非商用-非衍生-保持署名（[创意共享 3.0 许可证](https://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh)）
 
 ## License
 
