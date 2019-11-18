@@ -2,8 +2,9 @@
 
 > `React`是当今非常热门的前端框架，或许有人指出它本不是个框架；它本身的特点和于组件为核心的设计，只不过是个关注视图的UI库而已。如果当你深入了解它的API和设计思想，你会发现它始以UI而不止UI。它 还可以使用 Node 进行服务器渲染，或使用 React Native 开发原生移动应用。感谢上帝，它给我们带来很多不一样解决前端事儿的方案。
 
-![logo](https://github.com/ok3-8/when-i-using-react/raw/master/libs/images/logo-react.png)
-
+<p align="center">
+  <img src="https://github.com/ok3-8/when-i-using-react/raw/master/libs/images/logo-new.png">
+</p>
 <p align="center">
   <img src="https://img.shields.io/badge/前端-frontend-important.svg" alt="前端">
   <img src="https://img.shields.io/badge/React-16+-brightgreen.svg" alt="React">
