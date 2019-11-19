@@ -2,11 +2,11 @@
   <img src="https://github.com/ok3-8/when-i-using-react/raw/master/libs/images/logo-new.png">
 </p>
 <p align="center">
-  <img src="https://img.shields.io/badge/前端-frontend-important.svg" alt="前端">
+  <img src="https://img.shields.io/badge/前端-front_end-important.svg" alt="前端">
   <img src="https://img.shields.io/badge/React-16+-brightgreen.svg" alt="React">
   <img src="https://img.shields.io/badge/学习资料-study-blue.svg" alt="学习资料">
   <img src="https://img.shields.io/badge/面试资料-interview-lightgrey.svg" alt="interview">
-  <img src="https://img.shields.io/badge/不断学习-comeon-critical.svg" alt="不断学习">
+  <img src="https://img.shields.io/badge/不断学习-come_on-critical.svg" alt="不断学习">
 </p>
 
 # 当我在使用React的时候，我应该学习点什么？
