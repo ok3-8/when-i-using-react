@@ -32,12 +32,13 @@ React 16+ 网址: [github](https://github.com/facebook/react)、[官网](https:/
 
 - [基础](#React基础知识)
   - [state&props](#state)
-  - [react-script](#react-script)
-  - [React Hooks](#ReactHooks)
+  - [Router](#Router)
+  - [路由权限](#路由权限)
   - [Redux](#Redux)
+  - [React Hooks](#ReactHooks)
   - [设计模式](#设计模式)
   - [高阶组件](#高阶组件)
-  - [路由权限](#路由权限)
+  - [react-script](#react-script)
 - [精通 React Hooks](#精通ReactHooks) 
 - [十大 React UI 库](#十大ReactUI库)
 - [组件开发文档]()
@@ -62,41 +63,6 @@ React 16+ 网址: [github](https://github.com/facebook/react)、[官网](https:/
 ![hot](http://www.devio.org/img/ico/ico_hot.gif)  
 ![new](http://www.devio.org/img/ico/ico_new.gif)
 
-三条任务线：
-
-基础 => 实践 => 部署上线  
-React周边知识点包括知识点深入分析和面试题讲解  
-React周边技术和衍生态技术，像杂货店  
-
-React的基础  
-ceate-react-app  
-webpack  
-postcss&css-in-js  
-样式、font、图片  
-测试用例  
-router  
-redux  
-mock server 
-代码规范  
-test(jest)  
-TS  
-git和gitlab  
-jenkins  
-docker  
-埋点&log server  
-
-this.setState()  
-Time Slice  
-Fiber()
-
-搭一个UI 库  
-弄一个devdoc文档，可以在线修改代码  
-搭一个脚手架  
-弄一个通用项目目录构建  
-VS code最佳实现  
-
-React Native  
-Next.js
 
 ## React基础知识
 
@@ -108,49 +74,72 @@ Next.js
 6、React开发思想 - 状态提升和单向数据流  
 7、React16新增特性 Context
 
-1.NextJS — react体系最强大的同构框架  
-2.OAuth授权体系 — 最广泛的第三方授权体系，如微信，QQ等  
-3.React Hooks — 改变react的开发模式  
-4.KOA — 基于node.js搭建服务器，配合next.js做项目同构  
-5.Redis — 业界常用的内存数据库  
 
-代码分割
-Context
-错误边界
-Fragments
-Portals
-forwardRef
+课程目录
 
-https://www.e-learn.cn/content/qita/2737868
-https://coding.imooc.com/?c=reactjs
+第一章 ：React 基础 (10讲)
 
-动手更美好
+01、课程介绍  
+02、React出现的历史背景及特性介绍  
+03、以组件方式考虑UI的构建  
+04、JSX的本质 : 不是模板引擎，而是语法糖  
+05、React组件的生命周期及其使用场景  
+06、理解Virtual DOM及key属性的作用  
+07、组件设计模式 : 高阶组件和函数作为子组件  
+08、理解新的Context API及其使用场景  
+09、使用脚手架工具创建React项目  
+10、打包和部署
 
-实现一套基础组件   
-实现在线编辑代码生效  
-研究react UI库  
-结合TypeScript  
-immutable的原理是什么？ 
-jest 单元测试  
-hooks的实现  
-React Fiber原理和优化  
+第二章 ：React 生态圈 (12讲)
 
-```
-import React, { lazy, Suspense } from 'react';
-react suspense
-```
+11、Redux（1） : 前端为何需要状态管理库  
+12、Redux（2） : 深入理解Store、Action、Reducer  
+13、Redux（3） : 在React中使用Redux  
+14、Redux（4） : 理解异步Action、Redux中间件  
+15、Redux（5） : 如何组织Action和Reducer  
+16、Redux（6） : 理解不可变数据（Immutability）  
+17、React Router（1）：路由不只是页面切换，更是代码组织方式  
+18、React Router（2）：参数定义，嵌套路由的使用场景  
+19、UI组件库对比和介绍：Ant.Design、Material UI、Semantic UI  
+20、使用Next.js创建React同构应用  
+21、使用Jest、Enzyme等工具进行单元测试  
+22、常用开发调试工具：ESLint、Prettier、React DevTool、Redux DevTool
 
-学习React最终思路
+第三章 ：构建可维护可扩展的前端应用 (6讲)
 
-了解全新React版本和了解React过去。
-提前了解未来的React开发模式，关注React版本的更新。
+23、前端项目的理想架构：可维护、可扩展、可测试、易开发、易建构  
+24、拆分复杂度（1）：按领域模型（feature）组织代码，降低耦合度  
+25、拆分复杂度（2）：如何组织component、action和reducer  
+26、拆分复杂度（3）：如何组织React Router的路由配置  
+27、使用Rekit（1）：创建项目，代码生成和重构  
+28、使用Rekit（2）：遵循最佳实践，保持代码一致性
 
-对于React API需要知道怎么使用，把握框架的使用流程形态和框架的边界性，针对性或深入了解React运行机制。
+第四章 ：常见场景的最佳实践 (13讲)
 
-提升排查问题能力
-更好的理解React工作过程
-避免陷阱，提升应用性能和可靠性
-夯实数据结构以及算法设计能力
+29、使用React Router管理登录和授权  
+30、实现表单（1）：初始数据，提交和跳转  
+31、实现表单（2）：错误处理，动态表单元素，内容动态加载  
+32、列表页（1）：搜索，数据缓存和分页  
+33、列表页（2）：缓存更新，加载状态，错误处理  
+34、页面数据需要来源多个请求的处理  
+35、内容页的加载与缓存  
+36、基于React Router实现分步操作  
+37、常见页面布局的实现  
+38、使用React Portals实现对话框，使用antd对话框  
+39、集成第三方JS库：以d3.js为例  
+40、基于路由实现菜单导航  
+41、React中拖放的实现
+
+第五章：React性能优化 (5讲)
+
+42、性能永远是第一需求：时刻考虑性能问题  
+43、网络性能优化：自动化按需加载  
+44、使用Reselect避免重复计算  
+45、下一代React：异步渲染  
+46、使用Chrome DevTool进行性能调优"
+
+
+## Fiber原理简介
 
 React API 一览
 
@@ -197,11 +186,27 @@ DOM，实现UI的更新
 能，发挥的作用，以及如何实现的
 
  
-全新功能详解
+全新功能详解  
 
-Suspense和Hooks颠覆原先的
-React组件开发模式，提供更小粒度
+Suspense和Hooks颠覆原先的  
+React组件开发模式，提供更小粒度  
 的更新以及更加适合解耦的API
+
+
+
+学习React基础的链接
+
+- [学习React之前你需要知道的的JavaScript基础知识](https://www.zcfy.cc/article/javascript-fundamentals-before-learning-react)  
+- [React 基础知识点总结](https://juejin.im/post/5bc590aaf265da0ab915f2de)  
+- [关于React你应该了解的一切：开始构建前你所需的基础知识](https://www.zcfy.cc/article/everything-you-should-know-about-react-the-basics-you-need-to-start-building-4694.html)  
+- [React基础知识详解](https://shenbao.github.io/ishehui/html/React/React%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86.html)  
+- []()  
+- []()  
+- []()  
+- []()  
+- []()  
+- []()  
+- []()  
 
 
 ## 技术储备
@@ -216,17 +221,102 @@ React全栈+服务器渲染(ssr)打造社区Webapp
 全栈进阶课程 React16.8+Next.js+Koa2一步到位开发Github
 
 
+三条任务线：
+
+1、【基础 => 实践 => 部署上线】    
+2、【React周边知识点包括知识点深入分析和面试题讲解】   
+3、【React周边技术和衍生态技术，像杂货店】   
+
+React的基础  
+ceate-react-app  
+webpack  
+postcss&css-in-js  
+样式、font、图片  
+测试用例  
+router  
+redux  
+mock server 
+代码规范  
+test(jest)  
+TS  
+git和gitlab  
+jenkins  
+docker  
+埋点&log server  
+
+this.setState()  
+Time Slice  
+Fiber() 
+
+搭一个UI 库  
+弄一个devdoc文档，可以在线修改代码  
+搭一个脚手架  
+弄一个通用项目目录构建  
+VS code最佳实现  
+
+React Native  
+Next.js
+
+
+1.NextJS — react体系最强大的同构框架  
+2.OAuth授权体系 — 最广泛的第三方授权体系，如微信，QQ等  
+3.React Hooks — 改变react的开发模式  
+4.KOA — 基于node.js搭建服务器，配合next.js做项目同构  
+5.Redis — 业界常用的内存数据库  
+
+代码分割  
+Context  
+错误边界  
+Fragments  
+Portals  
+forwardRef
+
+https://www.e-learn.cn/content/qita/2737868
+https://coding.imooc.com/?c=reactjs
+
+动手更美好
+
+实现一套基础组件   
+实现在线编辑代码生效  
+研究react UI库  
+结合TypeScript  
+immutable的原理是什么？ 
+jest 单元测试  
+hooks的实现  
+React Fiber原理和优化  
+
+```
+import React, { lazy, Suspense } from 'react';
+react suspense
+```
+
+学习React最终思路
+
+了解全新React版本和了解React过去。 
+提前了解未来的React开发模式，关注React版本的更新。
+
+对于React API需要知道怎么使用，把握框架的使用流程形态和框架的边界性，针对性或深入了解React运行机制。
+
+提升排查问题能力  
+更好的理解React工作过程  
+避免陷阱，提升应用性能和可靠性  
+夯实数据结构以及算法设计能力
+
 ## 🃏React代码规范
 
-JavaScript Style Guide： https://github.com/airbnb/javascript
-翻译： https://github.com/dwqs/react-style-guide  
-https://hustyichi.github.io/2019/06/23/react-style/
 
-来自https://github.com/ecomfe/spec/blob/master/react-style-guide.md
 
-前端体系规划指南
-https://github.com/phodal/fde
+ 
 
+- [React规范](https://github.com/ecomfe/spec/blob/master/react-style-guide.md)  
+- [前端体系规划指南](https://github.com/phodal/fde)  
+- [JavaScript Style Guide](https://github.com/airbnb/javascript)  
+- [JavaScript Style Guide:翻译](https://github.com/dwqs/react-style-guide)  
+- [Airbnb React/JSX 编码规范](https://hustyichi.github.io/2019/06/23/react-style/)  
+- [A collection of hand-picked React style guides](https://freefrontend.com/react-style-guides/)  
+- [Our React Style Guide](https://github.com/pagarme/react-style-guide)  
+- []()  
+- []()  
 
 ## ☯️后续关注React科学发展的妖艳姿势
 
@@ -635,6 +725,9 @@ https://juejin.im/post/5dbbdbd5f265da4d4b5fe57d
 精读《Function Component 入门》
 https://juejin.im/post/5ceb36dd51882530be7b1585
 
+A Guide to Learning React Hooks
+https://dev.to/httpjunkie/a-guide-to-learning-react-hooks-58a0
+
 ## 其它
 
 [掘金翻译前端列表](https://github.com/xitu/gold-miner/blob/master/front-end.md)
@@ -704,5 +797,4 @@ JavaScirpt实现幻灯片：[Impress.js](https://github.com/impress/impress.js)�
 ## License
 
 Released under the MIT License.
-
 
