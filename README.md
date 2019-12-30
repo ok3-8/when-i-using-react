@@ -792,7 +792,7 @@ JavaScirpt实现幻灯片：[Impress.js](https://github.com/impress/impress.js)�
 博学之，审问之，慎思之，明辨之，笃行之。
 
 作者：[蓝少 (@bluezhan)](https://github.com/bluezhan)
-版权声明：自由转载-非商用-非衍生-保持署名（[创意共享 3.0 许可证](https://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh)）
+版权声明：自由转载-非商用-非衍生-保持署名（[创意共享 3.0 许可证](http://creativecommons.org/licenses/by/4.0/)）
 
 ## License
 
