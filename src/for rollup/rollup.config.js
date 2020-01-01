@@ -9,7 +9,7 @@ const extensions = [
 export default {
   input: 'src/index.tsx',
   output: {
-    dir: 'output',
+    dir: 'dist',
     format: 'cjs'
   },
   plugins: [ 
@@ -18,5 +18,5 @@ export default {
     typescript(),
     terser()
    ],
-   external: ['react','lodash'] 
+   external: ['react','lodash','styled-components'] 
 };
