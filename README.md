@@ -192,22 +192,12 @@ Suspense和Hooks颠覆原先的
 React组件开发模式，提供更小粒度  
 的更新以及更加适合解耦的API
 
-
-
 学习React基础的链接
 
 - [学习React之前你需要知道的的JavaScript基础知识](https://www.zcfy.cc/article/javascript-fundamentals-before-learning-react)  
 - [React 基础知识点总结](https://juejin.im/post/5bc590aaf265da0ab915f2de)  
 - [关于React你应该了解的一切：开始构建前你所需的基础知识](https://www.zcfy.cc/article/everything-you-should-know-about-react-the-basics-you-need-to-start-building-4694.html)  
 - [React基础知识详解](https://shenbao.github.io/ishehui/html/React/React%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86.html)  
-- []()  
-- []()  
-- []()  
-- []()  
-- []()  
-- []()  
-- []()  
-
 
 ## 技术储备
 
@@ -219,7 +209,6 @@ React组件开发模式，提供更小粒度
 React源码深度解析 高级前端工程师必备技能  
 React全栈+服务器渲染(ssr)打造社区Webapp  
 全栈进阶课程 React16.8+Next.js+Koa2一步到位开发Github
-
 
 三条任务线：
 
@@ -303,10 +292,6 @@ react suspense
 夯实数据结构以及算法设计能力
 
 ## 🃏React代码规范
-
-
-
- 
 
 - [React规范](https://github.com/ecomfe/spec/blob/master/react-style-guide.md)  
 - [前端体系规划指南](https://github.com/phodal/fde)  
@@ -455,7 +440,6 @@ const result4 = customMemoization({foo: 'bar'});
 result3 === result4 // true - 参数通过lodash.isEqual判断是相等的
 ```
 
-
 Immutable Data 就是一旦创建，就不能再被更改的数据。
 
 immutable.js
@@ -513,23 +497,10 @@ import pureRender from 'pure-render-decorator';
 class OrderListView extends React.Component {
 ```
 
-
 React特色工具：Perf
 Perf 是react官方提供的性能分析工具。Perf最核心的方法莫过于Perf.printWasted(measurements)了，该方法会列出那些没必要的组件渲染。很大程度上，React的性能优化就是干掉这些无谓的渲染。
 
-
 https://segmentfault.com/a/1190000008925295
-
-
-
-
-
-
-
-
-
-
-
 
 
 ## 🦐国外Web资源列表
@@ -705,16 +676,9 @@ https://github.com/FAQGURU/FAQGURU/blob/master/topics/en/react.md#how-to-bind-me
 
 
 什么是Hooks
-
 Hooks解决了什么问题
-
 Hooks注意事项
-
 Hooks工具和教程
-
-
-
-
 
 30分钟精通React Hooks：
 https://juejin.im/post/5be3ea136fb9a049f9121014
