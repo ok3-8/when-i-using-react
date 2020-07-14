@@ -75,11 +75,9 @@ React 16+ 网址: [github](https://github.com/facebook/react)、[官网](https:/
 7、React16新增特性 Context
 
 
-课程目录
+第一 ：React 基础
 
-第一章 ：React 基础 (10讲)
-
-01、课程介绍  
+01、介绍  
 02、React出现的历史背景及特性介绍  
 03、以组件方式考虑UI的构建  
 04、JSX的本质 : 不是模板引擎，而是语法糖  
@@ -90,7 +88,7 @@ React 16+ 网址: [github](https://github.com/facebook/react)、[官网](https:/
 09、使用脚手架工具创建React项目  
 10、打包和部署
 
-第二章 ：React 生态圈 (12讲)
+第二 ：React 生态圈 
 
 11、Redux（1） : 前端为何需要状态管理库  
 12、Redux（2） : 深入理解Store、Action、Reducer  
@@ -105,7 +103,7 @@ React 16+ 网址: [github](https://github.com/facebook/react)、[官网](https:/
 21、使用Jest、Enzyme等工具进行单元测试  
 22、常用开发调试工具：ESLint、Prettier、React DevTool、Redux DevTool
 
-第三章 ：构建可维护可扩展的前端应用 (6讲)
+第三 ：构建可维护可扩展的前端应用
 
 23、前端项目的理想架构：可维护、可扩展、可测试、易开发、易建构  
 24、拆分复杂度（1）：按领域模型（feature）组织代码，降低耦合度  
@@ -114,7 +112,7 @@ React 16+ 网址: [github](https://github.com/facebook/react)、[官网](https:/
 27、使用Rekit（1）：创建项目，代码生成和重构  
 28、使用Rekit（2）：遵循最佳实践，保持代码一致性
 
-第四章 ：常见场景的最佳实践 (13讲)
+第四 ：常见场景的最佳实践
 
 29、使用React Router管理登录和授权  
 30、实现表单（1）：初始数据，提交和跳转  
@@ -130,7 +128,7 @@ React 16+ 网址: [github](https://github.com/facebook/react)、[官网](https:/
 40、基于路由实现菜单导航  
 41、React中拖放的实现
 
-第五章：React性能优化 (5讲)
+第五：React性能优化
 
 42、性能永远是第一需求：时刻考虑性能问题  
 43、网络性能优化：自动化按需加载  
